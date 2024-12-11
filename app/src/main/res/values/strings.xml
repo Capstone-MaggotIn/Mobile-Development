@@ -1,6 +1,128 @@
 <resources>
     <string name="app_name">MaggotIN</string>
+
+    <!--  Dashboard  -->
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_bookmarks">Bookmarks</string>
+
+    <!--  Authentication  -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="password_confirm">Confirm Password</string>
+
+    <!--  Login  -->
+    <string name="title_login_page">Ready to see the Maggot?</string>
+    <string name="message_login_page">Please enter your details</string>
+    <string name="login">Login</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+
+    <!--  SignUp  -->
+    <string name="signup">SignUp</string>
+    <string name="have_account">Already have an account?</string>
+
+    <!--  Custom View  -->
+    <string name="email_format_error">Incorrect email format</string>
+    <string name="password_min_length_error">Password must be at least %1$d characters</string>
+    <string name="name">Name\n</string>
+    <string name="title_signup_page">Fill in your data below</string>
+    <string name="logout">Logout</string>
+
+    <!--  Camera  -->
+    <string name="gallery">Galeri</string>
+    <string name="analyze">Analyze</string>
+    <string name="camera">Camera</string>
+    <string name="subtitle_camera">Identifikasi pertumbuhan maggot kamu sekarang!</string>
+    <string name="save_bookmark">Save bookmark</string>
+    <string name="brief_desc">Brief description</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="articles">Yuk, tambah pengetahuan dengan literatur maggot dan pengelolaan sampah yang informatif!</string>
+
+    <!--  Onboarding  -->
+    <string name="onboarding_image">Your Onboarding Image Description</string>
+    <string name="get_started">Get Started</string>
+    <string name="onboarding_title_1">Welcome to MaggotIN!</string>
+    <string name="onboarding_title_2">Identification of Maggot Growth with Photos</string>
+    <string name="onboarding_title_3">Start now!</string>
+    <string name="onboarding_desc_1">Start your journey with MaggotIN that will help you with maggot cultivation every step of the way!</string>
+    <string name="onboarding_desc_2">The image detection feature helps you treat maggots and get immediate treatment recommendations to ensure maggots stay healthy.</string>
+    <string name="onboarding_desc_3">Utilize the MaggotIN feature and start treating your maggots today!</string>
+
+    <!--  Bookmark  -->
+    <string name="empty_bookmark_image_desc">Ilustrasi kosong untuk bookmark</string>
+    <string name="empty_message">Kamu belum menyimpan artikel apapun</string>
+
+    <!-- Classification Result -->
+    <string name="stage">Fase Maggot</string>
+    <string name="title_stage">Fase:</string>
+    <string name="title_feed">Pakan:</string>
+    <string name="feed">Rekomendasi makanan</string>
+    <string name="duration">Suhu</string>
+    <string name="title_duration">Durasi:</string>
+    <string name="title_evaluation">Evaluasi:</string>
+    <string name="evaluation">Tingkat kelembapan</string>
+    <string name="title_notes">Lakukan:</string>
+    <string name="notes">Informasi detail terhadap fase maggot saat ini</string>
+    <string name="published_date">Tanggal Terbit</string>
+    <string name="login_icon_description">Ikon Login</string>
+    <string name="classification_image_description">Gambar Klasifikasi</string>
+    <string name="splash_icon_description">Gambar Maggot</string>
+
+    <!--  Error Handling  -->
+    <string name="empty_column">Semua kolom harus diisi!</string>
+    <string name="success_registration">Registrasi berhasil. Silakan login.</string>
+    <string name="empty_email">Email tidak boleh kosong</string>
+    <string name="empty_password">Kata sandi tidak boleh kosong</string>
+    <string name="input_email">Masukkan email</string>
+    <string name="input_password">Masukkan password</string>
+    <string name="try_again">Coba Lagi</string>
+    <string name="next">Lanjut</string>
+    <string name="login_success">Login Sukses</string>
+    <string name="login_success_message">Selamat datang, %1$s</string>
+    <string name="login_failed">Login Gagal</string>
+    <string name="login_failed_message">Login gagal, silakan coba lagi.</string>
+    <string name="error_message_placeholder">Identification not valid!</string>    <string name="unknown_phase">Unknown Phase</string>
+    <string name="n_a">N/A</string>
+    <string name="no_evaluation_available">No evaluation available</string>
+    <string name="no_action_available">No action available</string>
+    <string name="unknown_error">Unknown Error</string>
+
+    <!-- Larva Phase 1 -->
+    <string name="larva_phase_1_recommendation">Limbah organik lembut (contoh: bubur nasi, kulit buah busuk, sayur lembut) dengan kelembapan tinggi (60-70%).</string>
+    <string name="larva_phase_1_duration">2-3 hari pada suhu ideal 27-30°C.</string>
+    <string name="larva_phase_1_evaluation">Larva aktif menunjukkan pakan sesuai; hindari pakan keras/kering.</string>
+    <string name="larva_phase_1_action">Siapkan pakan lembut dan pastikan cukup lembap (tambahkan air jika perlu). Aduk media setiap 12 jam untuk distribusi merata.</string>
+
+    <!-- Larva Phase 2 -->
+    <string name="larva_phase_2_recommendation">Limbah organik kasar (contoh: ampas sayur, kulit buah, dedak) dengan tambahan serat seperti serbuk gergaji.</string>
+    <string name="larva_phase_2_duration">3-5 hari, tergantung kondisi lingkungan.</string>
+    <string name="larva_phase_2_evaluation">Pantau pertumbuhan (larva tumbuh 2-3 kali lipat). Hindari bau menyengat berlebihan.</string>
+    <string name="larva_phase_2_action">Tambahkan pakan kasar dan ganti setiap 2 hari jika hampir habis. Pastikan media tetap terurai tanpa terlalu kering.</string>
+
+    <!-- Larva Phase 3 -->
+    <string name="larva_phase_3_recommendation">Limbah organik padat (contoh: ampas tahu, limbah dapur). Tingkatkan volume pakan karena konsumsi memuncak.</string>
+    <string name="larva_phase_3_duration">3-7 hari, tergantung suhu dan ketersediaan pakan.</string>
+    <string name="larva_phase_3_evaluation">Larva kurang aktif/ukuran stagnan menandakan pakan kurang bergizi atau mendekati fase prepupa.</string>
+    <string name="larva_phase_3_action">Tingkatkan jumlah pakan. Pisahkan larva yang sudah besar untuk panen. Kontrol kelembapan agar tidak basah atau berlumpur.</string>
+
+    <!-- Maggot Pre-Prepupa -->
+    <string name="maggot_pre_pupa_recommendation">Limbah kaya protein (contoh: ampas kelapa, tepung ikan).</string>
+    <string name="maggot_pre_pupa_duration">1-2 hari hingga larva menggelap dan mengurangi aktivitas makan.</string>
+    <string name="maggot_pre_pupa_evaluation">Larva mulai menjauh dari pakan menandakan siap ke fase prepupa.</string>
+    <string name="maggot_pre_pupa_action">Berikan pakan terakhir kaya protein. Sediakan media kering (sekam padi) agar prepupa berpindah secara alami.</string>
+
+    <!-- Prepupa -->
+    <string name="prepupa_recommendation">Tidak perlu pakan, hanya media kering seperti sekam padi atau tanah lembut.</string>
+    <string name="prepupa_duration">2-3 hari hingga prepupa berubah menjadi pupa.</string>
+    <string name="prepupa_evaluation">Pastikan lingkungan tetap kering untuk mencegah kematian prepupa.</string>
+    <string name="prepupa_action">Tempatkan prepupa di media kering untuk proses transformasi.</string>
+
+    <!-- Pupa -->
+    <string name="pupa_recommendation">Tidak membutuhkan pakan.</string>
+    <string name="pupa_duration">7-14 hari hingga berubah menjadi lalat dewasa.</string>
+    <string name="pupa_evaluation">Pupa sehat berwarna coklat gelap/hitam; hindari kelembapan berlebih.</string>
+    <string name="pupa_action">Simpan di tempat teduh, kering, dan bersih. Pisahkan pupa mati untuk mencegah kontaminasi.</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="back_to_analyze">Back to Analyze</string>
 </resources>
